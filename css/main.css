@@ -2,7 +2,7 @@
 /* CSS Document */
 
 html, body {
-  margin: 0px;
+  margin: 0px auto;
 }
 
 .clear {
@@ -59,6 +59,10 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  .col-3 {
+    width: 50%;
+  }
+
   header {
     background-color: #b5e3d8;
   }
@@ -73,10 +77,11 @@ footer {
 
   #column-3 {
     background-color: #071013;
+    margin: 0 25%;
   }
 
   footer {
-    background-color: ;
+    background-color: #b5e3d8;
   }
 
 }
@@ -84,8 +89,12 @@ footer {
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+  .col-3 {
+    width: 33.33%;
+  }
+
   header {
-    background-color: #04060F;
+    background-color: #0294A5;
   }
 
   #column-1 {
@@ -93,7 +102,7 @@ footer {
   }
 
   #column-2 {
-    background-color: #0294A5;
+    background-color: #a79c93;
   }
 
   #column-3 {
@@ -101,7 +110,7 @@ footer {
   }
 
   footer {
-    background-color: ;
+    background-color: #04060F;
   }
 
 }
